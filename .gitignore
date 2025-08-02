@@ -1,19 +1,39 @@
-# Python
+# Python cache files
 __pycache__/
 *.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Virtual environment
+env/
+venv/
+ENV/
+.venv/
+.langchain-env/
 *.egg-info/
+.eggs/
+pip-log.txt
+pip-delete-this-directory.txt
 
-# Virtual environments
+# dotenv file with API keys
 .env
-.venv
-langchain-env/
 
-# IDE
-.idea/
+# Jupyter Notebook checkpoints (if used)
+.ipynb_checkpoints/
+
+# Streamlit cache
+.streamlit/
+
+# VSCode settings
 .vscode/
 
-# OS
-.DS_Store
+# PyCharm project files
+.idea/
 
-# Streamlit
-.streamlit/
+# OS files
+.DS_Store
+Thumbs.db
+
+# CSV outputs (optional, if generated during runs)
+*.csv
